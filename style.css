@@ -1,0 +1,58 @@
+*{
+margin: auto 0;
+padding: auto 0;
+box-sizing: border-box;
+
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container span{
+display: block;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+
+.vermelho{
+background-color: rgb(255, 9, 9);
+}
+
+.amarelo{
+background-color: rgb(252, 215, 5);
+}
+
+.verde{
+    background-color: rgb(11, 163, 11);
+}
+
+.container{
+background-color: rgb(0, 0, 0);
+margin: 5px;
+padding: 5px;
+border-radius: 5%;
+}
+
+
+.container span + span{
+margin: 10px 0;
+}
+
+.vermelho-ativo{
+background-color: red;
+box-shadow: 0 0 15px 3px red;
+}
+
+.amarelo-ativo{
+    background-color: yellow;
+    box-shadow: 0 0 15px 3px yellow;
+}
+
+.verde-ativo{
+background-color: rgb(84, 223, 84);
+box-shadow: 0 0 15px 3px rgb(84, 223, 84)
+}
